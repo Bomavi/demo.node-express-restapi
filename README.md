@@ -1,4 +1,4 @@
-# NODE EXPRESS DEMO
+# NestJS - Fastify - Mongo
 
 Application was built in demo purpose
 
@@ -23,18 +23,38 @@ Application was built in demo purpose
 * edit tasks
 * delete tasks
 
-## Running application
+## Description
 
 This application depends on [Docker](https://www.docker.com/), and [docker-microservice-demo](https://github.com/Bomavi/docker-microservice-demo) repository, as it is part of big demo project. So before going ahead, be sure, you have installed [Docker](https://www.docker.com/) locally. Then, go ahead, and visit [docker-microservice-demo](https://github.com/Bomavi/docker-microservice-demo) repository to follow next instructions.
 
-## Available Scripts
+## Project setup
 
-In the project directory, you can run:
+```bash
+$ npm install
+```
 
-### `npm run dev / yarn dev`
+## Compile and run the project
 
-Launches the app in development mode, with `nodemon` watcher and `debug` logger<br>
+```bash
+# development
+$ npm run start
 
-### `npm run prod / yarn prod`
+# watch mode
+$ npm run start:dev
 
-Launches the app in production mode, with optimizations for the security and performance<br>
+# production mode
+$ npm run start:prod
+```
+
+## Run tests
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
